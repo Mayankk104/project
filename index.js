@@ -1,3 +1,3 @@
 const utility = require('./folder/utility');
 
-console.log(utility.increment(3));
+console.log('I am happy :)');
