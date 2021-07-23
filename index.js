@@ -1,3 +1,10 @@
 const utility = require('./folder/utility');
 
-console.log(utility.increment(3));
+console.log("natural number series")
+
+
+for(let i=0;i<5;i++){
+    console.log(utility.increment(i))
+}
+
+console.log('...')
