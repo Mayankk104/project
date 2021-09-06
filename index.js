@@ -1,6 +1,6 @@
 const utility = require('./folder/utility');
 
-console.log('I am happy :)');
+console.log('I am super happy :):)');
 console.log("natural number series")
 
 
