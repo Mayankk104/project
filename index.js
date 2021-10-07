@@ -8,11 +8,17 @@ console.log("natural number series.")
 for(let i=0;i<5;i++){
     console.log(utility.increment(i))
 }
-console.log('...')
 
-console.log('...')
 console.log("whole number series.")
 for(let i=0;i<5;i++){
     console.log(utility.increment(i-1))
 }
-console.log('...')
+
+console.log('double series.')
+for(let i=1; i<5; i++){
+    let num = 1;
+    for(let j=0 ; j<i ; j++){
+        num += num;
+    }
+    console.log(num);
+}
